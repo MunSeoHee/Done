@@ -5,14 +5,61 @@ class Todaydoitemlist extends Component {
   render() {
     const { todos, onToggle, onRemove } = this.props;
 
+    const todoList = todos.map(
+      ({id, text, checked}) => (
+        <Todaydoitem
+          id={id}
+          text={text}
+          checked={checked}
+          onToggle={onToggle}
+          onRemove={onRemove}
+          key={id}
+        />
+      )
+    );
+
     return (
       <div>
-        <Todaydoitem text="안녕"/>
-        <Todaydoitem text="리액트"/>
-        <Todaydoitem text="반가워"/> 
+        {todoList}    
       </div>
     );
   }
 }
 
 export default Todaydoitemlist;
+
+
+// import React, { Component } from 'react';
+// import Todaydoitem from './Todaydoitem';
+
+// class Todaydoitemlist extends Component {
+
+//   shouldComponentUpdate(nextProps, nextState) {
+//     return this.props.todos !== nextProps.todos;
+//   }
+
+//   render() {
+//     const { todos, onToggle, onRemove } = this.props;
+
+//     const todoList = todos.map(
+//       ({id, text, checked}) => (
+//         <Todaydoitem
+//           id={id}
+//           text={text}
+//           checked={checked}
+//           onToggle={onToggle}
+//           onRemove={onRemove}
+//           key={id}
+//         />
+//       )
+//     );
+
+//     return (
+//       <div>
+//         {todoList}    
+//       </div>
+//     );
+//   }
+// }
+
+// export default Todaydoitemlist;

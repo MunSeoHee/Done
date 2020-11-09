@@ -15,7 +15,7 @@
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-left: 1rem;
+
   background: #22b8cf;
   border-radius: 3px;
   color: white;
@@ -25,4 +25,31 @@
 
 .create-button:hover {
   background: #3bc9db;
+}
+/**/
+
+Button {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*버튼의 이미지 조정*/
+  border: none;
+}
+.calander {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #adb5bd;
+}
+
+.check-mark {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  margin-left: 1rem;
+  color: #3bc9db;
+  font-weight: 800;
 }

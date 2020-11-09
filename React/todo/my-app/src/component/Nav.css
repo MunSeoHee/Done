@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  left: 0;
+  height: 100%;
+
+  float: left;
+  font-size: 10px;
+  /*width: 10%;*/
+  color: black !important;
+}
+a.Nav-Link {
+  color: darkgrey;
+}
+.down {
+  position: fixed;
+  bottom: 0;
+}
+
+html {
+  height: 100%;
+}

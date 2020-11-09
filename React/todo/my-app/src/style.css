@@ -2,5 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #00000083;
+  background: #f1f9ff;
+}
+.left {
+  background: #2699f2;
+}
+
+.right {
+  background: #2699f2;
 }
