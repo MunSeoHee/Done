@@ -4,7 +4,7 @@ import Form from './component/Form';
 import Todaydoitemlist from './component/Todaydoitemlist';
 import Navs from './component/Navs';
 
-import {Nav, Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
@@ -20,9 +20,9 @@ class App extends Component {
   state = {
     input: '',
     todos: [
-      { id: 0, text: ' 111', checked: false },
-      { id: 1, text: ' 222', checked: true },
-      { id: 2, text: '333', checked: false }
+      { id: 0, text: ' 자바공부', checked: false },
+      { id: 1, text: ' 리눅스', checked: true },
+      { id: 2, text: '디비 영미 살인', checked: false }
     ]
   }
 

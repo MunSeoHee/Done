@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Form.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
-import Navs from './Navs';
-import SVG from '../static/img/calander.svg';
+
 const Form = ({value, onChange, onCreate, onKeyPress}) => {
   return (
     

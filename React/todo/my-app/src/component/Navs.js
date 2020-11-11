@@ -12,7 +12,8 @@ class Navs extends Component {
   <Nav.Link eventKey="link-1">오늘의 Todo</Nav.Link>
   <Nav.Link eventKey="link-2">이번주 Todo</Nav.Link>
   <Nav.Link eventKey="link-3">완료한 Todo</Nav.Link>
-  <Nav.Link eventKey="link-4" className="down">로그아웃</Nav.Link>
+  <Nav.Link eventKey="link-4" className="downmy">마이페이지</Nav.Link>
+  <Nav.Link eventKey="link-5" className="down">로그아웃</Nav.Link>
 </Nav>
      
       );
