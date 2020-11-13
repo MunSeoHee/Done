@@ -98,6 +98,9 @@ class App extends Component {
       </Col>
       <Col  xs={9}>
       <Container ClassName="middle">
+
+      <Todaydoitemlist todos={todos} onToggle={handleToggle} onRemove={handleRemove}/>
+      
       <Todaydo form={(
    
    <Form 
@@ -108,7 +111,7 @@ class App extends Component {
      onCreate={handleCreate}
    />
  )}>
-   <Todaydoitemlist todos={todos} onToggle={handleToggle} onRemove={handleRemove}/>
+ 
 
 
 
