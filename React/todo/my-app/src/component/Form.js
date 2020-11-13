@@ -11,7 +11,9 @@ const Form = ({value, onChange, onCreate, onKeyPress}) => {
       <div>
        
        
-        <Button variant="outline-primary" /*onClick={달력}*/className=""> <img src="https://simpleicon.com/wp-content/uploads/Calendar-2.svg" className="calander"></img></Button>{''}
+        <Button variant="outline-primary" /*onClick={달력}*/className=""> 
+        <img src="https://simpleicon.com/wp-content/uploads/Calendar-2.svg" className="calander"></img>
+        </Button>{''}
         <span className="create-button" onClick={onCreate}>
   
         </span>
