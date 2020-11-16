@@ -7,4 +7,9 @@ router.register(r'brd', views.BoardViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('done/<int:id>', views.done),
+    path('memoUpdate/<int:id>', views.Memo),
+    path('delete/<int:id>', views.delete),
+    path('user',views.Users),
+    path('todos', views.Todos)
 ]

@@ -3,7 +3,7 @@ import Todaydo from './component/Todaydo';
 import Form from './component/Form';
 import Todaydoitemlist from './component/Todaydoitemlist';
 import Navs from './component/Navs';
-
+import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import {Container, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
@@ -108,8 +108,9 @@ class App extends Component {
      onCreate={handleCreate}
    />
  )}>
+   <DragDropContext onDragEnd={this.onDragEnd}>
    <Todaydoitemlist todos={todos} onToggle={handleToggle} onRemove={handleRemove}/>
-
+   </DragDropContext>
 
 
 

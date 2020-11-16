@@ -84,7 +84,7 @@ class Todaydoitem extends Component {
 
     return (
       <span>
-      <DragDropContext onDragEnd={this.onDragEnd}>
+      
       <Droppable droppableId="droppable">
         {(provided, snapshot) => (
           <div
@@ -135,7 +135,7 @@ class Todaydoitem extends Component {
         )}
         
       </Droppable>
-    </DragDropContext>
+    
 
 
 
