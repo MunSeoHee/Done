@@ -41,7 +41,7 @@ const getListStyle = isDraggingOver => ({
   background: isDraggingOver ? "lightblue" : "lightgrey",
   
   padding: grid,
-  width: 250
+  width: 450
 });
 /**Rmx */
 
@@ -84,10 +84,14 @@ class Todaydoitem extends Component {
 
     return (
       <span>
+<<<<<<< HEAD
       
+=======
+      <DragDropContext onDragEnd={this.onDragEnd} >
+>>>>>>> 423222a878e3f5af7c8802eea1eeb9ee94a6498a
       <Droppable droppableId="droppable">
         {(provided, snapshot) => (
-          <div
+          <div className="size"
             {...provided.droppableProps}
             ref={provided.innerRef}
             style={getListStyle(snapshot.isDraggingOver)}

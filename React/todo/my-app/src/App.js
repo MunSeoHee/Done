@@ -98,6 +98,9 @@ class App extends Component {
       </Col>
       <Col  xs={9}>
       <Container ClassName="middle">
+
+      <Todaydoitemlist todos={todos} onToggle={handleToggle} onRemove={handleRemove}/>
+      
       <Todaydo form={(
    
    <Form 
@@ -108,9 +111,14 @@ class App extends Component {
      onCreate={handleCreate}
    />
  )}>
+<<<<<<< HEAD
    <DragDropContext onDragEnd={this.onDragEnd}>
    <Todaydoitemlist todos={todos} onToggle={handleToggle} onRemove={handleRemove}/>
    </DragDropContext>
+=======
+ 
+
+>>>>>>> 423222a878e3f5af7c8802eea1eeb9ee94a6498a
 
 
 
