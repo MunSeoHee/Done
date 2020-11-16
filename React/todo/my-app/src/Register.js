@@ -8,6 +8,12 @@ import './Register.css';
 
 
 class Register extends Component {
+  //  data = {email:email, password : password, username : username};
+  //  add_user = await axios('54.162.5.29/users/create/', {
+  //       method : 'POST',
+  //       headers: new Headers(),
+  //       data : data
+  // })
     render() {
       
 
@@ -17,13 +23,18 @@ form.append('username',this.username)
 form.append('password',this.password)
 
 
-axios.post(`54.162.5.29/users/create/`, form)
+axios.post(`https://54.162.5.29/users/create`, form)
 .then( response => { console.log('response : ', 
-JSON.stringify(response, null, 2)) })
+JSON.stringify(response, null, 10)) })
 .catch( error => { console.log('failed', error) })
 
 
-
+  // const data = { id : id, password : password, name : name, birthday : birthday, sex : sex, email : email };
+  // const add_user = await axios('/add/user', {
+  //       method : 'POST',
+  //       headers: new Headers(),
+  //       data : data
+  // })
       
       return (
        <Container>
