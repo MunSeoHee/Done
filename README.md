@@ -1,5 +1,6 @@
 # Done
-# 기획
+
+### 기획
 
 ---
 
@@ -21,7 +22,7 @@
 
 8. 드로그 앤 드랍으로 할 일들의 위치를 자유롭게 변경
 
-# 고민 중인 내용
+### 고민 중인 내용
 
 ---
 
@@ -40,7 +41,7 @@
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ed7fb6c-f81f-429c-9afe-ff0bbae05bb7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ed7fb6c-f81f-429c-9afe-ff0bbae05bb7/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ed7fb6c-f81f-429c-9afe-ff0bbae05bb7/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#ab27ab9c76074ae0ab1e710c228ba435)
 
 - 프론트는 리액트를 이용하며, axios를 이용하여 백엔드와 http 통신을 할 것입니다
 - 백엔드는 django rest framework를 사용 할 것이며, 샐리니움을 이용한 편리한 크롤링과 쉽고 빠른 restful api 구현을 위해 선택하였습니다
@@ -53,17 +54,17 @@
 
 ### 로그인 화면
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c62fb7-48c4-4f20-87e9-37e6d834de25/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c62fb7-48c4-4f20-87e9-37e6d834de25/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c62fb7-48c4-4f20-87e9-37e6d834de25/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#94cd441ffc8d411fbb927b0868acb257)
 
 ### 회원가입 화면
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3de128dd-bb38-433c-8dab-45ad60e4e57d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3de128dd-bb38-433c-8dab-45ad60e4e57d/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3de128dd-bb38-433c-8dab-45ad60e4e57d/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#def03597037d482ebdf211c7096a2731)
 
 - 회원가입 인풋박스만 두면 밋밋할 거 같아, 오른쪽에는 서비스에 대한 간단한 소개를 넣으면 좋을 것 같아 위와 같이 구상하였습니다
 
 ### 메인화면
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1248964-ebb1-4fa2-a7bc-9c3af211f866/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1248964-ebb1-4fa2-a7bc-9c3af211f866/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1248964-ebb1-4fa2-a7bc-9c3af211f866/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#c05cd0ea3ce9419ab0ade32c7c211b6c)
 
 - 왼쪽은 카테고리, 가운데에는 투두리스트가 나오도록 구상하였습니다
 - 투두리스트 밑의 색깔은 할 일을 분류하는 카테고리같은 역할로 쉽게 구분하여 볼 수 있도록 도와줍니다
@@ -71,26 +72,26 @@
 
 ### 오늘 할 일 _ 메모
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a476d2a9-f367-4c8e-bc4d-8372ac590ba8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a476d2a9-f367-4c8e-bc4d-8372ac590ba8/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a476d2a9-f367-4c8e-bc4d-8372ac590ba8/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#14893ded9c894d4690cbca650d057daf)
 
 - 일정을 클릭하면 아래에 메모지가 보여집니다
 - 메모지에는 그 일정과 관련한 메모를 자유롭게 할 수 있습니다
 
 ### 오늘 할 일 _ 날짜 선택
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1a42960-1842-48a4-86cd-1570a5cc1168/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1a42960-1842-48a4-86cd-1570a5cc1168/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1a42960-1842-48a4-86cd-1570a5cc1168/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#324ce417f1bb4f6299e2f392d3586646)
 
 - 할 일 추가에 달력 모양을 클릭하면 위와같이 달력이 나와서 해당 일정의 날짜를 선택 할 수 있습니다
 
 ### 오늘 할 일 _ 카테고리 선택
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecad8385-821d-45fa-ab63-92020de1afe4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecad8385-821d-45fa-ab63-92020de1afe4/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecad8385-821d-45fa-ab63-92020de1afe4/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#883a95b471574a3d92354f9d5e523424)
 
 - 할 일 추가의 삼색원을 클릭하면 카테고리 목록들이 표시되고, 선택한 카테고리의 색이 표시되게 됩니다
 
 ### 마이페이지
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da26db4a-ae6c-44d6-aa5a-0591a350a81d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da26db4a-ae6c-44d6-aa5a-0591a350a81d/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da26db4a-ae6c-44d6-aa5a-0591a350a81d/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#abfef396474048db955562979f3350ac)
 
 - 마이페이지에서는 비밀번호 변경 및 카테고리 설정이 가능합니다
 - 카테고리 설정같은 경우는, 색 변경은 불가능하고 각 색상이 의미하는 카테고리 내용만 변경 할 수 있습니다
@@ -99,7 +100,7 @@
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ff27aca-02d8-4d80-b00a-3f070fc7d042/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ff27aca-02d8-4d80-b00a-3f070fc7d042/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ff27aca-02d8-4d80-b00a-3f070fc7d042/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#3aab47eadf7c4376a8c0b8b794eaf589)
 
 - 로그인을 한 뒤에 메인 페이지를 볼 수 있습니다
 - 메인페이지는 크게 3개의 부분으로 나누어지며, 왼쪽은 카테고리를 가운데는 할 일 목록을 오른쪽에는 랜덤박스가 보여집니다
