@@ -91,7 +91,7 @@
 
 ### 마이페이지
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da26db4a-ae6c-44d6-aa5a-0591a350a81d/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#abfef396474048db955562979f3350ac)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da26db4a-ae6c-44d6-aa5a-0591a350a81d/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/da26db4a-ae6c-44d6-aa5a-0591a350a81d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101323Z&X-Amz-Expires=86400&X-Amz-Signature=baedf0f515ec7d87c6d24284ce14880599ce463321d29b5a1c68eeba3527ce80&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 마이페이지에서는 비밀번호 변경 및 카테고리 설정이 가능합니다
 - 카테고리 설정같은 경우는, 색 변경은 불가능하고 각 색상이 의미하는 카테고리 내용만 변경 할 수 있습니다
