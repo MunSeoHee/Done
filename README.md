@@ -100,7 +100,7 @@
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ff27aca-02d8-4d80-b00a-3f070fc7d042/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#3aab47eadf7c4376a8c0b8b794eaf589)
+![service](https://www.notion.so/498a2c8a51104085a2e02a186f276657#3aab47eadf7c4376a8c0b8b794eaf589)
 
 - 로그인을 한 뒤에 메인 페이지를 볼 수 있습니다
 - 메인페이지는 크게 3개의 부분으로 나누어지며, 왼쪽은 카테고리를 가운데는 할 일 목록을 오른쪽에는 랜덤박스가 보여집니다
