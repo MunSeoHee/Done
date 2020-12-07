@@ -37,34 +37,34 @@
 - 사용자가 지정해 둔 카테고리명만 이용하여 인스타그램에서 글을 검색 할지, 아니면 [https://www.globing.co.kr/hash.html](https://www.globing.co.kr/hash.html) 를 이용하여 관련된 인기 해시태그들도 사용해 인스타그램에서 글을 검색할지
 - 
 
-# 아키텍처
+### 아키텍처
 
 ---
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ed7fb6c-f81f-429c-9afe-ff0bbae05bb7/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#ab27ab9c76074ae0ab1e710c228ba435)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ed7fb6c-f81f-429c-9afe-ff0bbae05bb7/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ed7fb6c-f81f-429c-9afe-ff0bbae05bb7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101503Z&X-Amz-Expires=86400&X-Amz-Signature=7214eb72f77e6823b28bd4a3a65128d1bdd5fbd0e67d5e23403ffbeadbf7021e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 프론트는 리액트를 이용하며, axios를 이용하여 백엔드와 http 통신을 할 것입니다
 - 백엔드는 django rest framework를 사용 할 것이며, 샐리니움을 이용한 편리한 크롤링과 쉽고 빠른 restful api 구현을 위해 선택하였습니다
 - 데이터베이스는 보통 많이 이용되며, 익숙한 Mysql을 선택하였습니다
 - 서버는 쉽고 빠르게 사용가능하며 안정적인 AWS EC2로 인스턴스를 분양받아 사용 할 예정입니다
 
-# 유저플로우
+### 유저플로우
 
 ---
 
 ### 로그인 화면
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c62fb7-48c4-4f20-87e9-37e6d834de25/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#94cd441ffc8d411fbb927b0868acb257)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c62fb7-48c4-4f20-87e9-37e6d834de25/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d8c62fb7-48c4-4f20-87e9-37e6d834de25/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101450Z&X-Amz-Expires=86400&X-Amz-Signature=d1f09d03ac6d12a168a947e0774c7bae4d11ce85fbadfdfd9367230f129afc17&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ### 회원가입 화면
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3de128dd-bb38-433c-8dab-45ad60e4e57d/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#def03597037d482ebdf211c7096a2731)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3de128dd-bb38-433c-8dab-45ad60e4e57d/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3de128dd-bb38-433c-8dab-45ad60e4e57d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101437Z&X-Amz-Expires=86400&X-Amz-Signature=b1b42b79956d112638e22719fbd04345935e8c3c44938cbd3d98ef1394168733&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 회원가입 인풋박스만 두면 밋밋할 거 같아, 오른쪽에는 서비스에 대한 간단한 소개를 넣으면 좋을 것 같아 위와 같이 구상하였습니다
 
 ### 메인화면
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1248964-ebb1-4fa2-a7bc-9c3af211f866/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#c05cd0ea3ce9419ab0ade32c7c211b6c)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1248964-ebb1-4fa2-a7bc-9c3af211f866/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d1248964-ebb1-4fa2-a7bc-9c3af211f866/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101423Z&X-Amz-Expires=86400&X-Amz-Signature=71576a955e4b02c980d408997ebd51b2313d9d3d9de5d390ce49a07f38a8c5c4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 왼쪽은 카테고리, 가운데에는 투두리스트가 나오도록 구상하였습니다
 - 투두리스트 밑의 색깔은 할 일을 분류하는 카테고리같은 역할로 쉽게 구분하여 볼 수 있도록 도와줍니다
@@ -72,20 +72,20 @@
 
 ### 오늘 할 일 _ 메모
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a476d2a9-f367-4c8e-bc4d-8372ac590ba8/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#14893ded9c894d4690cbca650d057daf)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a476d2a9-f367-4c8e-bc4d-8372ac590ba8/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a476d2a9-f367-4c8e-bc4d-8372ac590ba8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101412Z&X-Amz-Expires=86400&X-Amz-Signature=3c98289d83cf4eff7de408f9ce54a88696cae8d365822350ab1b2dbb689cc517&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 일정을 클릭하면 아래에 메모지가 보여집니다
 - 메모지에는 그 일정과 관련한 메모를 자유롭게 할 수 있습니다
 
 ### 오늘 할 일 _ 날짜 선택
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1a42960-1842-48a4-86cd-1570a5cc1168/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#324ce417f1bb4f6299e2f392d3586646)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1a42960-1842-48a4-86cd-1570a5cc1168/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f1a42960-1842-48a4-86cd-1570a5cc1168/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101359Z&X-Amz-Expires=86400&X-Amz-Signature=b80b75eaec61c16dad5582dc73c63b9bd246b527d24d58e39e3862db6a48fd6d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 할 일 추가에 달력 모양을 클릭하면 위와같이 달력이 나와서 해당 일정의 날짜를 선택 할 수 있습니다
 
 ### 오늘 할 일 _ 카테고리 선택
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecad8385-821d-45fa-ab63-92020de1afe4/Untitled.png](https://www.notion.so/498a2c8a51104085a2e02a186f276657#883a95b471574a3d92354f9d5e523424)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecad8385-821d-45fa-ab63-92020de1afe4/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ecad8385-821d-45fa-ab63-92020de1afe4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201207%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201207T101340Z&X-Amz-Expires=86400&X-Amz-Signature=047c2465abd0edc00d4c974739bf0b3e404c3dadcdf572cb47ec4a9049b86fdd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - 할 일 추가의 삼색원을 클릭하면 카테고리 목록들이 표시되고, 선택한 카테고리의 색이 표시되게 됩니다
 
@@ -96,7 +96,7 @@
 - 마이페이지에서는 비밀번호 변경 및 카테고리 설정이 가능합니다
 - 카테고리 설정같은 경우는, 색 변경은 불가능하고 각 색상이 의미하는 카테고리 내용만 변경 할 수 있습니다
 
-# 유저플로우
+### 유저플로우
 
 ---
 
