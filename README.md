@@ -1,8 +1,8 @@
 # Done
 
 ### 참여자
-프론트 ![박상현](https://github.com/BbakSsang)
-백 ![문서희](https://github.com/MunSeoHee)
+프론트 [박상현](https://github.com/BbakSsang)
+백 [문서희](https://github.com/MunSeoHee)
 
 ### 기획
 
