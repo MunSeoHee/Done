@@ -19,7 +19,7 @@
 
 [GET][Auth] /todos/todos -> 해당 유저의 todo 목록
 
-[GET][Auth] /todos/users -> 유저 정보
+[GET][Auth] /todos/user -> 유저 정보
 
 [POST] /users/create -> 회원가입
 
