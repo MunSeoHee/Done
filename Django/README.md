@@ -1,11 +1,26 @@
 # Done
 
 ### URLs
+
+
+[POST] /users/create -> 회원가입
+
+    {"email": email, "username":username, "password":password}
+![][https://user-images.githubusercontent.com/38175311/101976919-49bb5080-3c8d-11eb-9806-820c4e1975fc.png]
+
+[POST] /users/login -> 로그인
+
+    {"email":email, "password":password}
+    
+    
 [GET] /todos/brd/ -> 전체 투두 목록 출력
 
 [POST][Auth] /todos/brd/ -> 새로운 투두 추가
 
-    {"contents":todo내용}
+    {  
+        "contents":todo내용,
+        "order":순서
+    }
 
 
 
@@ -21,10 +36,3 @@
 
 [GET][Auth] /todos/user -> 유저 정보
 
-[POST] /users/create -> 회원가입
-
-    {"email": email, "username":username, "password":password}
-
-[POST] /users/login -> 로그인
-
-    {"email":email, "password":password}
