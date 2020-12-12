@@ -6,7 +6,7 @@
 [POST] /users/create -> 회원가입
 
     {"email": email, "username":username, "password":password}
-![][https://user-images.githubusercontent.com/38175311/101976919-49bb5080-3c8d-11eb-9806-820c4e1975fc.png]
+![createuser][https://user-images.githubusercontent.com/38175311/101976919-49bb5080-3c8d-11eb-9806-820c4e1975fc.png]
 
 [POST] /users/login -> 로그인
 
