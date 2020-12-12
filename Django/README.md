@@ -32,9 +32,10 @@
 #### [POST][Auth] /todos/memoUpdate/<todo_id> -> 메모 수정
     
     {"memo":memo}
-
-#### [POST] /todos/delete/<todo_id> -> todo 삭제
-
+![login](https://user-images.githubusercontent.com/38175311/101977275-e2eb6680-3c8f-11eb-8009-ef5d9f3cc0cb.png)
+![login](https://user-images.githubusercontent.com/38175311/101977281-f0a0ec00-3c8f-11eb-8b70-1788d6ce534f.png)
+#### [POST][Auth] /todos/delete/<todo_id> -> todo 삭제
+![login](https://user-images.githubusercontent.com/38175311/101977324-2fcf3d00-3c90-11eb-8c44-f67fc9055ece.png)
 #### [GET][Auth] /todos/todos -> 해당 유저의 todo 목록
 ![login](https://user-images.githubusercontent.com/38175311/101977117-905d7a80-3c8e-11eb-9f06-df257e6c068f.png)
 #### [GET][Auth] /todos/user -> 유저 정보
